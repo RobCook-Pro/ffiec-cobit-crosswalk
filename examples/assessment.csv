@@ -1,0 +1,36 @@
+cobit_objective,current_capability,target_capability,notes
+EDM01,3,3,Board IT committee charter in place
+EDM02,2,3,
+EDM03,3,4,Risk appetite statement lacks IT metrics
+EDM04,3,3,
+EDM05,2,3,
+APO01,3,3,
+APO02,2,3,IT strategy not refreshed in 2 years
+APO03,2,3,
+APO06,3,3,
+APO07,3,3,
+APO09,2,3,SLAs missing for two critical vendors
+APO10,2,4,Vendor monitoring is annual questionnaire only
+APO12,3,4,
+APO13,3,4,
+APO14,2,3,Data classification policy not enforced
+BAI01,3,3,
+BAI02,3,3,
+BAI03,3,3,
+BAI04,3,3,
+BAI06,4,4,
+BAI07,3,3,
+BAI08,2,2,
+BAI09,2,3,Cloud assets missing from inventory
+BAI10,3,3,
+BAI11,3,3,
+DSS01,4,4,
+DSS02,3,4,No tabletop exercise this year
+DSS03,3,3,
+DSS04,3,4,DR test did not meet RTO for core banking
+DSS05,3,4,
+DSS06,3,3,
+MEA01,3,3,
+MEA02,3,3,
+MEA03,3,4,
+MEA04,4,4,

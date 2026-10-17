@@ -1,0 +1,89 @@
+ffiec_id,booklet,topic,cobit_id,cobit_name,strength,relationship,rationale
+MGT-01,Management,IT governance and strategy,EDM01,Ensured Governance Framework Setting and Maintenance,primary,intersects,Board-level governance framework and oversight of I&T
+MGT-01,Management,IT governance and strategy,APO02,Managed Strategy,primary,intersects,IT strategic plan aligned to enterprise strategy
+MGT-01,Management,IT governance and strategy,EDM02,Ensured Benefits Delivery,supporting,intersects,Board evaluates value delivered by I&T investments
+MGT-02,Management,IT risk management,APO12,Managed Risk,primary,equivalent,"Full IT risk lifecycle: collect data, analyze, maintain profile, respond"
+MGT-02,Management,IT risk management,EDM03,Ensured Risk Optimization,primary,intersects,Board sets risk appetite and oversees risk optimization
+MGT-03,Management,Policies and roles,APO01,Managed I&T Management Framework,primary,superset_of,FFIEC expectation spans policies and roles; APO01 covers the I&T management framework including both
+MGT-03,Management,Policies and roles,EDM01,Ensured Governance Framework Setting and Maintenance,supporting,intersects,Board direction on governance structures
+MGT-04,Management,IT resources,APO07,Managed Human Resources,primary,intersects,Staffing levels and skills
+MGT-04,Management,IT resources,APO06,Managed Budget and Costs,primary,intersects,IT budget and cost management
+MGT-04,Management,IT resources,EDM04,Ensured Resource Optimization,supporting,intersects,Board oversight of resource optimization
+MGT-05,Management,Reporting to the board,MEA01,Managed Performance and Conformance Monitoring,primary,intersects,Performance and conformance monitoring and reporting
+MGT-05,Management,Reporting to the board,EDM05,Ensured Stakeholder Engagement,supporting,intersects,Stakeholder (board) reporting and transparency
+MGT-06,Management,Legal and regulatory compliance,MEA03,Managed Compliance With External Requirements,primary,equivalent,Identify and comply with external legal and regulatory requirements
+MGT-06,Management,Legal and regulatory compliance,APO13,Managed Security,supporting,intersects,GLBA safeguards are implemented through the security management system
+IS-01,Information Security,Security governance and culture,APO13,Managed Security,primary,intersects,Information security management system and program
+IS-01,Information Security,Security governance and culture,EDM01,Ensured Governance Framework Setting and Maintenance,supporting,intersects,Board approval and accountability for the program
+IS-01,Information Security,Security governance and culture,APO07,Managed Human Resources,supporting,intersects,Security culture and accountability of personnel
+IS-02,Information Security,Risk identification,APO12.01,Collect data,primary,subset_of,Threat and vulnerability identification is the security slice of collecting risk data
+IS-02,Information Security,Risk identification,DSS05.07,Manage vulnerabilities and monitor the infrastructure for security-related events,supporting,intersects,Vulnerability identification on infrastructure
+IS-03,Information Security,Asset inventory and classification,BAI09,Managed Assets,primary,intersects,Asset inventory and lifecycle
+IS-03,Information Security,Asset inventory and classification,APO14,Managed Data,primary,intersects,Data classification by sensitivity
+IS-03,Information Security,Asset inventory and classification,BAI10,Managed Configuration,supporting,intersects,Configuration items and their relationships
+IS-04,Information Security,Risk measurement,APO12.02,Analyze risk,primary,subset_of,Security risk analysis within enterprise risk analysis
+IS-04,Information Security,Risk measurement,APO12.03,Maintain a risk profile,supporting,intersects,Prioritized risk profile
+IS-05,Information Security,Security policies and standards,APO13,Managed Security,primary,intersects,Security policies are part of the ISMS
+IS-05,Information Security,Security policies and standards,APO01,Managed I&T Management Framework,supporting,intersects,Policy framework and policy lifecycle
+IS-06,Information Security,User access controls,DSS05.04,Manage user identity and logical access,primary,equivalent,User identity and logical access management
+IS-06,Information Security,User access controls,DSS05.05,Manage physical access to I&T assets,supporting,intersects,Physical access to I&T assets
+IS-07,Information Security,Network controls,DSS05.02,Manage network and connectivity security,primary,equivalent,Network and connectivity security
+IS-08,Information Security,Malware and endpoint protection,DSS05.01,Protect against malicious software,primary,intersects,Malicious software protection
+IS-08,Information Security,Malware and endpoint protection,DSS05.03,Manage endpoint security,primary,intersects,Endpoint security and hardening
+IS-09,Information Security,Change management,BAI06,Managed IT Changes,primary,equivalent,"IT change management: authorize, assess, approve, implement"
+IS-09,Information Security,Change management,BAI10,Managed Configuration,supporting,intersects,Configuration baselines updated on change
+IS-10,Information Security,Control of information,DSS05.06,Manage sensitive documents and output devices,primary,subset_of,Sensitive documents and output; COBIT practice narrower than FFIEC data-protection scope
+IS-10,Information Security,Control of information,APO14,Managed Data,supporting,intersects,Data management including retention and disposal
+IS-10,Information Security,Control of information,DSS06,Managed Business Process Controls,supporting,intersects,Business process controls over information handling
+IS-11,Information Security,Application security,BAI03,Managed Solutions Identification and Build,primary,intersects,Security requirements built into solution design and build
+IS-11,Information Security,Application security,BAI07,Managed IT Change Acceptance and Transitioning,supporting,intersects,Security testing during acceptance
+IS-12,Information Security,Service provider security oversight,APO10.04,Manage vendor risk,primary,intersects,Vendor risk including security requirements
+IS-12,Information Security,Service provider security oversight,APO10.05,Monitor vendor performance and compliance,primary,intersects,Monitor vendor control performance
+IS-13,Information Security,Threat intelligence,APO12.01,Collect data,primary,intersects,Collect threat data relevant to the enterprise
+IS-13,Information Security,Threat intelligence,DSS05.07,Manage vulnerabilities and monitor the infrastructure for security-related events,supporting,intersects,Use threat information in monitoring
+IS-14,Information Security,Security monitoring,DSS05.07,Manage vulnerabilities and monitor the infrastructure for security-related events,primary,equivalent,Monitor infrastructure for security-related events
+IS-14,Information Security,Security monitoring,DSS01,Managed Operations,supporting,intersects,Operational monitoring
+IS-15,Information Security,Incident response,DSS02,Managed Service Requests and Incidents,primary,superset_of,FFIEC incident response includes customer and regulatory notification that DSS02 does not specify
+IS-15,Information Security,Incident response,DSS03,Managed Problems,supporting,intersects,Root-cause analysis
+IS-15,Information Security,Incident response,MEA03,Managed Compliance With External Requirements,supporting,intersects,Regulatory notification obligations
+IS-16,Information Security,Assurance and testing,DSS05.07,Manage vulnerabilities and monitor the infrastructure for security-related events,primary,intersects,Vulnerability assessment
+IS-16,Information Security,Assurance and testing,MEA04,Managed Assurance,primary,intersects,Independent assurance including penetration testing
+IS-16,Information Security,Assurance and testing,MEA02,Managed System of Internal Control,supporting,intersects,Control self-assessment
+IS-17,Information Security,Security awareness training,APO07,Managed Human Resources,primary,intersects,Training and skills of personnel
+IS-17,Information Security,Security awareness training,BAI08,Managed Knowledge,supporting,intersects,Knowledge sharing and awareness
+IS-18,Information Security,Program effectiveness reporting,MEA01,Managed Performance and Conformance Monitoring,primary,intersects,Performance measurement and reporting
+IS-18,Information Security,Program effectiveness reporting,APO13,Managed Security,supporting,intersects,ISMS effectiveness reviews
+BCM-01,Business Continuity Management,BCM governance,DSS04.01,"Define the business continuity policy, objectives and scope",primary,intersects,"Continuity policy, objectives and scope"
+BCM-01,Business Continuity Management,BCM governance,EDM03,Ensured Risk Optimization,supporting,intersects,Board oversight of resilience risk
+BCM-02,Business Continuity Management,Business impact analysis,DSS04.02,Maintain business resilience,primary,intersects,Business resilience including impact analysis
+BCM-03,Business Continuity Management,Continuity and resilience strategies,DSS04.03,Develop and implement a business continuity response,primary,intersects,Continuity response and recovery strategy
+BCM-03,Business Continuity Management,Continuity and resilience strategies,DSS04.07,Manage backup arrangements,primary,equivalent,Backup arrangements
+BCM-03,Business Continuity Management,Continuity and resilience strategies,BAI04,Managed Availability and Capacity,supporting,intersects,Availability and redundancy design
+BCM-04,Business Continuity Management,Exercises and testing,DSS04.04,"Exercise, test and review the business continuity plan (BCP) and disaster response plan (DRP)",primary,equivalent,"Exercise, test and review BCP and DRP"
+BCM-04,Business Continuity Management,Exercises and testing,DSS04.06,Conduct continuity plan training,supporting,intersects,Continuity training
+BCM-05,Business Continuity Management,Plan maintenance and improvement,DSS04.05,"Review, maintain and improve the continuity plans",primary,equivalent,"Review, maintain and improve continuity plans"
+BCM-05,Business Continuity Management,Plan maintenance and improvement,DSS04.08,Conduct post-resumption review,supporting,intersects,Post-resumption review
+BCM-06,Business Continuity Management,Third-party resilience,APO10.04,Manage vendor risk,primary,intersects,Vendor risk including resilience
+BCM-06,Business Continuity Management,Third-party resilience,DSS04.03,Develop and implement a business continuity response,supporting,intersects,Continuity strategy covers third-party dependencies
+AIO-01,"Architecture, Infrastructure, and Operations",Enterprise architecture,APO03,Managed Enterprise Architecture,primary,equivalent,Enterprise architecture
+AIO-02,"Architecture, Infrastructure, and Operations",IT operations,DSS01,Managed Operations,primary,equivalent,Operations management and operational procedures
+AIO-03,"Architecture, Infrastructure, and Operations",Capacity and availability,BAI04,Managed Availability and Capacity,primary,equivalent,Availability and capacity
+AIO-04,"Architecture, Infrastructure, and Operations",Configuration and asset lifecycle,BAI10,Managed Configuration,primary,intersects,Configuration baselines and control
+AIO-04,"Architecture, Infrastructure, and Operations",Configuration and asset lifecycle,BAI09,Managed Assets,primary,intersects,Asset lifecycle including end of life
+AIO-05,"Architecture, Infrastructure, and Operations",Problem management,DSS03,Managed Problems,primary,equivalent,Problem management and root cause
+DAM-01,"Development, Acquisition, and Maintenance",Project and SDLC management,BAI11,Managed Projects,primary,intersects,Project management
+DAM-01,"Development, Acquisition, and Maintenance",Project and SDLC management,BAI01,Managed Programs,supporting,intersects,Program management
+DAM-01,"Development, Acquisition, and Maintenance",Project and SDLC management,BAI03,Managed Solutions Identification and Build,supporting,intersects,Development life cycle
+DAM-02,"Development, Acquisition, and Maintenance",Requirements and acquisition,BAI02,Managed Requirements Definition,primary,equivalent,Requirements definition
+DAM-02,"Development, Acquisition, and Maintenance",Requirements and acquisition,BAI03,Managed Solutions Identification and Build,supporting,intersects,Solution identification and acquisition
+DAM-03,"Development, Acquisition, and Maintenance",Testing and acceptance,BAI07,Managed IT Change Acceptance and Transitioning,primary,equivalent,Change acceptance and transition including testing
+AUD-01,Audit,Independent IT audit,MEA04,Managed Assurance,primary,intersects,Independent assurance
+AUD-01,Audit,Independent IT audit,MEA02,Managed System of Internal Control,supporting,intersects,System of internal control
+AUD-02,Audit,Issue tracking and remediation,MEA02,Managed System of Internal Control,primary,intersects,Control deficiency remediation tracking
+AUD-02,Audit,Issue tracking and remediation,MEA04,Managed Assurance,supporting,intersects,Assurance follow-up
+OTS-01,Outsourcing Technology Services,Due diligence and selection,APO10.02,Select vendors,primary,intersects,Vendor selection
+OTS-01,Outsourcing Technology Services,Due diligence and selection,APO10.01,Identify and evaluate vendor relationships and contracts,supporting,intersects,Identify and evaluate vendor relationships
+OTS-02,Outsourcing Technology Services,Contracts and service levels,APO09,Managed Service Agreements,primary,intersects,Service level agreements
+OTS-02,Outsourcing Technology Services,Contracts and service levels,APO10.03,Manage vendor relationships and contracts,primary,intersects,Vendor contract management
+OTS-03,Outsourcing Technology Services,Ongoing monitoring,APO10.05,Monitor vendor performance and compliance,primary,equivalent,Monitor vendor performance and compliance
+OTS-03,Outsourcing Technology Services,Ongoing monitoring,APO10.04,Manage vendor risk,supporting,intersects,Ongoing vendor risk

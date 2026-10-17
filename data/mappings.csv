@@ -1,0 +1,89 @@
+ffiec_id,cobit_id,strength,relationship,rationale
+MGT-01,EDM01,primary,intersects,Board-level governance framework and oversight of I&T
+MGT-01,APO02,primary,intersects,IT strategic plan aligned to enterprise strategy
+MGT-01,EDM02,supporting,intersects,Board evaluates value delivered by I&T investments
+MGT-02,APO12,primary,equivalent,"Full IT risk lifecycle: collect data, analyze, maintain profile, respond"
+MGT-02,EDM03,primary,intersects,Board sets risk appetite and oversees risk optimization
+MGT-03,APO01,primary,superset_of,FFIEC expectation spans policies and roles; APO01 covers the I&T management framework including both
+MGT-03,EDM01,supporting,intersects,Board direction on governance structures
+MGT-04,APO07,primary,intersects,Staffing levels and skills
+MGT-04,APO06,primary,intersects,IT budget and cost management
+MGT-04,EDM04,supporting,intersects,Board oversight of resource optimization
+MGT-05,MEA01,primary,intersects,Performance and conformance monitoring and reporting
+MGT-05,EDM05,supporting,intersects,Stakeholder (board) reporting and transparency
+MGT-06,MEA03,primary,equivalent,Identify and comply with external legal and regulatory requirements
+MGT-06,APO13,supporting,intersects,GLBA safeguards are implemented through the security management system
+IS-01,APO13,primary,intersects,Information security management system and program
+IS-01,EDM01,supporting,intersects,Board approval and accountability for the program
+IS-01,APO07,supporting,intersects,Security culture and accountability of personnel
+IS-02,APO12.01,primary,subset_of,Threat and vulnerability identification is the security slice of collecting risk data
+IS-02,DSS05.07,supporting,intersects,Vulnerability identification on infrastructure
+IS-03,BAI09,primary,intersects,Asset inventory and lifecycle
+IS-03,APO14,primary,intersects,Data classification by sensitivity
+IS-03,BAI10,supporting,intersects,Configuration items and their relationships
+IS-04,APO12.02,primary,subset_of,Security risk analysis within enterprise risk analysis
+IS-04,APO12.03,supporting,intersects,Prioritized risk profile
+IS-05,APO13,primary,intersects,Security policies are part of the ISMS
+IS-05,APO01,supporting,intersects,Policy framework and policy lifecycle
+IS-06,DSS05.04,primary,equivalent,User identity and logical access management
+IS-06,DSS05.05,supporting,intersects,Physical access to I&T assets
+IS-07,DSS05.02,primary,equivalent,Network and connectivity security
+IS-08,DSS05.01,primary,intersects,Malicious software protection
+IS-08,DSS05.03,primary,intersects,Endpoint security and hardening
+IS-09,BAI06,primary,equivalent,"IT change management: authorize, assess, approve, implement"
+IS-09,BAI10,supporting,intersects,Configuration baselines updated on change
+IS-10,DSS05.06,primary,subset_of,Sensitive documents and output; COBIT practice narrower than FFIEC data-protection scope
+IS-10,APO14,supporting,intersects,Data management including retention and disposal
+IS-10,DSS06,supporting,intersects,Business process controls over information handling
+IS-11,BAI03,primary,intersects,Security requirements built into solution design and build
+IS-11,BAI07,supporting,intersects,Security testing during acceptance
+IS-12,APO10.04,primary,intersects,Vendor risk including security requirements
+IS-12,APO10.05,primary,intersects,Monitor vendor control performance
+IS-13,APO12.01,primary,intersects,Collect threat data relevant to the enterprise
+IS-13,DSS05.07,supporting,intersects,Use threat information in monitoring
+IS-14,DSS05.07,primary,equivalent,Monitor infrastructure for security-related events
+IS-14,DSS01,supporting,intersects,Operational monitoring
+IS-15,DSS02,primary,superset_of,FFIEC incident response includes customer and regulatory notification that DSS02 does not specify
+IS-15,DSS03,supporting,intersects,Root-cause analysis
+IS-15,MEA03,supporting,intersects,Regulatory notification obligations
+IS-16,DSS05.07,primary,intersects,Vulnerability assessment
+IS-16,MEA04,primary,intersects,Independent assurance including penetration testing
+IS-16,MEA02,supporting,intersects,Control self-assessment
+IS-17,APO07,primary,intersects,Training and skills of personnel
+IS-17,BAI08,supporting,intersects,Knowledge sharing and awareness
+IS-18,MEA01,primary,intersects,Performance measurement and reporting
+IS-18,APO13,supporting,intersects,ISMS effectiveness reviews
+BCM-01,DSS04.01,primary,intersects,"Continuity policy, objectives and scope"
+BCM-01,EDM03,supporting,intersects,Board oversight of resilience risk
+BCM-02,DSS04.02,primary,intersects,Business resilience including impact analysis
+BCM-03,DSS04.03,primary,intersects,Continuity response and recovery strategy
+BCM-03,DSS04.07,primary,equivalent,Backup arrangements
+BCM-03,BAI04,supporting,intersects,Availability and redundancy design
+BCM-04,DSS04.04,primary,equivalent,"Exercise, test and review BCP and DRP"
+BCM-04,DSS04.06,supporting,intersects,Continuity training
+BCM-05,DSS04.05,primary,equivalent,"Review, maintain and improve continuity plans"
+BCM-05,DSS04.08,supporting,intersects,Post-resumption review
+BCM-06,APO10.04,primary,intersects,Vendor risk including resilience
+BCM-06,DSS04.03,supporting,intersects,Continuity strategy covers third-party dependencies
+AIO-01,APO03,primary,equivalent,Enterprise architecture
+AIO-02,DSS01,primary,equivalent,Operations management and operational procedures
+AIO-03,BAI04,primary,equivalent,Availability and capacity
+AIO-04,BAI10,primary,intersects,Configuration baselines and control
+AIO-04,BAI09,primary,intersects,Asset lifecycle including end of life
+AIO-05,DSS03,primary,equivalent,Problem management and root cause
+DAM-01,BAI11,primary,intersects,Project management
+DAM-01,BAI01,supporting,intersects,Program management
+DAM-01,BAI03,supporting,intersects,Development life cycle
+DAM-02,BAI02,primary,equivalent,Requirements definition
+DAM-02,BAI03,supporting,intersects,Solution identification and acquisition
+DAM-03,BAI07,primary,equivalent,Change acceptance and transition including testing
+AUD-01,MEA04,primary,intersects,Independent assurance
+AUD-01,MEA02,supporting,intersects,System of internal control
+AUD-02,MEA02,primary,intersects,Control deficiency remediation tracking
+AUD-02,MEA04,supporting,intersects,Assurance follow-up
+OTS-01,APO10.02,primary,intersects,Vendor selection
+OTS-01,APO10.01,supporting,intersects,Identify and evaluate vendor relationships
+OTS-02,APO09,primary,intersects,Service level agreements
+OTS-02,APO10.03,primary,intersects,Vendor contract management
+OTS-03,APO10.05,primary,equivalent,Monitor vendor performance and compliance
+OTS-03,APO10.04,supporting,intersects,Ongoing vendor risk

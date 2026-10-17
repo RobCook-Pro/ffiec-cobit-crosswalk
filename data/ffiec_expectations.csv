@@ -1,0 +1,44 @@
+ffiec_id,booklet,topic,expectation
+MGT-01,Management,IT governance and strategy,The board oversees IT and approves an IT strategic plan aligned with business objectives.
+MGT-02,Management,IT risk management,"Management maintains an IT risk management process to identify, measure, mitigate and monitor IT risk within board-approved risk appetite."
+MGT-03,Management,Policies and roles,"IT policies, standards and procedures are documented, and IT roles and responsibilities are clearly assigned."
+MGT-04,Management,IT resources,"Management provides adequate staffing, skills and budget for IT operations and projects."
+MGT-05,Management,Reporting to the board,"Management reports IT performance, risk and significant issues to the board on a regular basis."
+MGT-06,Management,Legal and regulatory compliance,The institution complies with applicable laws and regulations including the GLBA Interagency Guidelines Establishing Information Security Standards.
+IS-01,Information Security,Security governance and culture,The board approves the information security program and management promotes a security culture with clear accountability.
+IS-02,Information Security,Risk identification,The institution identifies threats and vulnerabilities to its information and systems.
+IS-03,Information Security,Asset inventory and classification,"Hardware, software, data and connections are inventoried and classified by criticality and sensitivity."
+IS-04,Information Security,Risk measurement,Identified risks are assessed for likelihood and impact and prioritized for mitigation.
+IS-05,Information Security,Security policies and standards,"Information security policies and standards are documented, approved and kept current."
+IS-06,Information Security,User access controls,Access is granted on least privilege and need to know with authentication commensurate with risk and periodic access reviews.
+IS-07,Information Security,Network controls,Networks are segmented and protected with boundary controls and secure remote access.
+IS-08,Information Security,Malware and endpoint protection,Endpoints and servers are hardened and protected against malicious code.
+IS-09,Information Security,Change management,"Changes to systems are authorized, tested, documented and approved before implementation."
+IS-10,Information Security,Control of information,Sensitive information is protected in storage and transmission and when disposed of.
+IS-11,Information Security,Application security,Security is built into application development and acquisition.
+IS-12,Information Security,Service provider security oversight,Security requirements are defined for service providers and their controls are monitored.
+IS-13,Information Security,Threat intelligence,The institution obtains and evaluates threat intelligence relevant to its environment.
+IS-14,Information Security,Security monitoring,Systems and networks are monitored and logs are reviewed to detect anomalous activity.
+IS-15,Information Security,Incident response,"The institution maintains an incident response program covering detection, containment, recovery, root-cause analysis and notification."
+IS-16,Information Security,Assurance and testing,"Security controls are tested through vulnerability assessments, penetration tests and independent reviews."
+IS-17,Information Security,Security awareness training,"Employees, contractors and the board receive security awareness training appropriate to their roles."
+IS-18,Information Security,Program effectiveness reporting,Management measures information security program effectiveness and reports results to the board.
+BCM-01,Business Continuity Management,BCM governance,The board and senior management oversee an enterprise-wide business continuity management program.
+BCM-02,Business Continuity Management,Business impact analysis,A business impact analysis identifies critical functions and sets recovery time and recovery point objectives.
+BCM-03,Business Continuity Management,Continuity and resilience strategies,"Strategies including redundancy, alternate sites and data backup support recovery of critical functions."
+BCM-04,Business Continuity Management,Exercises and testing,Continuity plans are exercised and tested and results are reported and acted upon.
+BCM-05,Business Continuity Management,Plan maintenance and improvement,"Continuity plans are reviewed, updated and improved after changes, tests and events."
+BCM-06,Business Continuity Management,Third-party resilience,The resilience of critical third-party service providers is assessed and incorporated into continuity planning.
+AIO-01,"Architecture, Infrastructure, and Operations",Enterprise architecture,Management maintains an enterprise architecture that aligns technology with business needs.
+AIO-02,"Architecture, Infrastructure, and Operations",IT operations,"IT operations are managed through defined procedures for processing, scheduling and operational controls."
+AIO-03,"Architecture, Infrastructure, and Operations",Capacity and availability,Capacity and performance are planned and monitored to meet availability requirements.
+AIO-04,"Architecture, Infrastructure, and Operations",Configuration and asset lifecycle,Configurations are baselined and controlled and assets are managed through their lifecycle including end of life.
+AIO-05,"Architecture, Infrastructure, and Operations",Problem management,Recurring incidents are analyzed for root cause and resolved.
+DAM-01,"Development, Acquisition, and Maintenance",Project and SDLC management,Development and acquisition projects follow a defined project management and system development life cycle methodology.
+DAM-02,"Development, Acquisition, and Maintenance",Requirements and acquisition,"Business, security and regulatory requirements are defined before solutions are developed or acquired."
+DAM-03,"Development, Acquisition, and Maintenance",Testing and acceptance,Systems are tested and formally accepted before production implementation.
+AUD-01,Audit,Independent IT audit,An independent IT audit function performs risk-based audits under a board-approved audit plan.
+AUD-02,Audit,Issue tracking and remediation,Audit and examination findings are tracked to timely remediation and reported to the audit committee.
+OTS-01,Outsourcing Technology Services,Due diligence and selection,Service providers are selected after risk-based due diligence.
+OTS-02,Outsourcing Technology Services,Contracts and service levels,"Contracts define service levels, security, audit rights, confidentiality and termination provisions."
+OTS-03,Outsourcing Technology Services,Ongoing monitoring,"Service provider performance, financial condition and controls are monitored on an ongoing basis."
