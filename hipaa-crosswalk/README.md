@@ -9,7 +9,7 @@ It follows the same approach as my [DORA crosswalk](https://github.com/robcookpr
 | Path | Purpose |
 |---|---|
 | `data/hipaa_security_rule_map.csv` | 46 implementation specifications (164.308, .310, .312, .316), Required/Addressable flag, mapped NIST 800-53 Rev. 5 controls, mapped COBIT 2019 objectives |
-| `data/control_inventory.csv` | Example inventory of controls tested (SoD, access review, password authentication, FIM, configuration review). Replace it with your own |
+| `data/control_inventory.csv` | Illustrative inventory of commonly tested controls (access review, SoD, MFA, password settings, FIM, configuration review) for a fictional organization. Replace it with your own |
 | `src/crosswalk.py` | Scores each specification as Covered, Partial or Gap and writes `report.md` |
 | `test_crosswalk.py` | Unit test for the scoring logic |
 | `report.md` | Output for the example inventory |
