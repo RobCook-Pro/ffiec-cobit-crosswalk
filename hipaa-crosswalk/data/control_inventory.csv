@@ -1,13 +1,13 @@
 nist_800_53_r5,evidence,source
-AC-2,Periodic access review testing; add/remove user access through AccessNow,Rob-stated CVS work
-AC-5,Segregation of duties testing (SOC 2: 30 systems; SOX: 30 tests),Rob-stated CVS work
-AC-6,Entitlement review within access and SoD testing,Rob-stated CVS work
-IA-2,MFA and authentication troubleshooting for online banking and remote deposit clients,Rob-stated Valley Bank work
-IA-5,Password authentication testing (641 controls),Rob-stated CVS work
-SI-7,File integrity monitoring testing (60 controls),Rob-stated CVS work
-CA-2,SOX ITGC and SOC 2 control testing campaigns,Rob-stated CVS work
-CA-5,Remediation plan tracking and retesting through closure,Rob-stated CVS work
-CA-7,Repeated testing cycles each year,Rob-stated CVS work
-CM-6,Azure configuration and settings reviews,Rob-stated CVS work
-CM-8,ServiceNow application and server inventory used as system of record,Rob-stated CVS work
-PS-4,Access removal on termination via AccessNow (de-provisioning),Rob-stated Valley/CVS work
+AC-2,Quarterly user access review with manager sign-off; provisioning and deprovisioning tickets,Illustrative example
+AC-5,Segregation of duties rule set reviewed and conflicts tested in in-scope applications,Illustrative example
+AC-6,Privileged and entitlement review performed within the access review,Illustrative example
+IA-2,MFA enforced for workforce and remote access; configuration evidence reviewed,Illustrative example
+IA-5,Password and authenticator settings tested against policy,Illustrative example
+SI-7,File integrity monitoring alerts and configuration tested,Illustrative example
+CA-2,Annual IT general control and SOC 2 testing program,Illustrative example
+CA-5,Remediation plans tracked and retested through closure,Illustrative example
+CA-7,Recurring control testing cycles each year,Illustrative example
+CM-6,Cloud configuration baseline reviews,Illustrative example
+CM-8,Application and server inventory maintained in a configuration management database,Illustrative example
+PS-4,Access removed on termination through the identity governance workflow,Illustrative example
