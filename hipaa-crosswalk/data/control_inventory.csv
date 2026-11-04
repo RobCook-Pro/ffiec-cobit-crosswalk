@@ -1,0 +1,13 @@
+nist_800_53_r5,evidence,source
+AC-2,Periodic access review testing; add/remove user access through AccessNow,Rob-stated CVS work
+AC-5,Segregation of duties testing (SOC 2: 30 systems; SOX: 30 tests),Rob-stated CVS work
+AC-6,Entitlement review within access and SoD testing,Rob-stated CVS work
+IA-2,MFA and authentication troubleshooting for online banking and remote deposit clients,Rob-stated Valley Bank work
+IA-5,Password authentication testing (641 controls),Rob-stated CVS work
+SI-7,File integrity monitoring testing (60 controls),Rob-stated CVS work
+CA-2,SOX ITGC and SOC 2 control testing campaigns,Rob-stated CVS work
+CA-5,Remediation plan tracking and retesting through closure,Rob-stated CVS work
+CA-7,Repeated testing cycles each year,Rob-stated CVS work
+CM-6,Azure configuration and settings reviews,Rob-stated CVS work
+CM-8,ServiceNow application and server inventory used as system of record,Rob-stated CVS work
+PS-4,Access removal on termination via AccessNow (de-provisioning),Rob-stated Valley/CVS work

@@ -1,0 +1,47 @@
+cfr,safeguard,standard,implementation_spec,type,nist_800_53_r5,cobit_2019
+164.308(a)(1)(ii)(A),Administrative,Security management process,Risk analysis,R,RA-1;RA-3;RA-9,APO12;APO13
+164.308(a)(1)(ii)(B),Administrative,Security management process,Risk management,R,RA-7;PM-9;CA-5,APO12;APO13
+164.308(a)(1)(ii)(C),Administrative,Security management process,Sanction policy,R,PS-8,APO07
+164.308(a)(1)(ii)(D),Administrative,Security management process,Information system activity review,R,AU-6;AU-7;CA-7,DSS05;MEA01
+164.308(a)(2),Administrative,Assigned security responsibility,Assigned security responsibility,R,PM-2;PM-29,APO01;APO13
+164.308(a)(3)(ii)(A),Administrative,Workforce security,Authorization and/or supervision,A,AC-2;PS-6,APO07;DSS05
+164.308(a)(3)(ii)(B),Administrative,Workforce security,Workforce clearance procedure,A,PS-3;AC-6,APO07;DSS05
+164.308(a)(3)(ii)(C),Administrative,Workforce security,Termination procedures,A,PS-4;AC-2,APO07;DSS05
+164.308(a)(4)(ii)(A),Administrative,Information access management,Isolating health care clearinghouse functions,R,AC-4;SC-7,DSS05
+164.308(a)(4)(ii)(B),Administrative,Information access management,Access authorization,A,AC-2;AC-3;AC-5;AC-6,DSS05;DSS06
+164.308(a)(4)(ii)(C),Administrative,Information access management,Access establishment and modification,A,AC-2;PS-5,DSS05;DSS06
+164.308(a)(5)(ii)(A),Administrative,Security awareness and training,Security reminders,A,AT-2,APO07;DSS05
+164.308(a)(5)(ii)(B),Administrative,Security awareness and training,Protection from malicious software,A,SI-3;SI-8,DSS05
+164.308(a)(5)(ii)(C),Administrative,Security awareness and training,Log-in monitoring,A,AC-7;AU-6,DSS05
+164.308(a)(5)(ii)(D),Administrative,Security awareness and training,Password management,A,IA-5,DSS05
+164.308(a)(6)(ii),Administrative,Security incident procedures,Response and reporting,R,IR-1;IR-4;IR-5;IR-6,DSS02
+164.308(a)(7)(ii)(A),Administrative,Contingency plan,Data backup plan,R,CP-9,DSS04
+164.308(a)(7)(ii)(B),Administrative,Contingency plan,Disaster recovery plan,R,CP-2;CP-10,DSS04
+164.308(a)(7)(ii)(C),Administrative,Contingency plan,Emergency mode operation plan,R,CP-2;CP-12,DSS04
+164.308(a)(7)(ii)(D),Administrative,Contingency plan,Testing and revision procedures,A,CP-4,DSS04
+164.308(a)(7)(ii)(E),Administrative,Contingency plan,Applications and data criticality analysis,A,CP-2;RA-2,DSS04;BAI09
+164.308(a)(8),Administrative,Evaluation,Periodic technical and nontechnical evaluation,R,CA-2;CA-7;CA-8,MEA01;MEA02;MEA03
+164.308(b)(1),Administrative,Business associate contracts,Written contract or other arrangement,R,SA-9;PS-7;SR-3,APO10
+164.310(a)(2)(i),Physical,Facility access controls,Contingency operations,A,CP-2;PE-17,DSS04
+164.310(a)(2)(ii),Physical,Facility access controls,Facility security plan,A,PE-1;PE-3,DSS05
+164.310(a)(2)(iii),Physical,Facility access controls,Access control and validation procedures,A,PE-2;PE-3,DSS05
+164.310(a)(2)(iv),Physical,Facility access controls,Maintenance records,A,MA-2,DSS01
+164.310(b),Physical,Workstation use,Workstation use,R,PL-4;AC-8,DSS05
+164.310(c),Physical,Workstation security,Workstation security,R,PE-3;PE-5,DSS05
+164.310(d)(2)(i),Physical,Device and media controls,Disposal,R,MP-6,DSS05
+164.310(d)(2)(ii),Physical,Device and media controls,Media re-use,R,MP-6,DSS05
+164.310(d)(2)(iii),Physical,Device and media controls,Accountability,A,MP-5;CM-8,BAI09;DSS05
+164.310(d)(2)(iv),Physical,Device and media controls,Data backup and storage,A,CP-9,DSS04
+164.312(a)(2)(i),Technical,Access control,Unique user identification,R,IA-2;IA-4,DSS05
+164.312(a)(2)(ii),Technical,Access control,Emergency access procedure,R,CP-2;AC-2,DSS04;DSS05
+164.312(a)(2)(iii),Technical,Access control,Automatic logoff,A,AC-11;AC-12,DSS05
+164.312(a)(2)(iv),Technical,Access control,Encryption and decryption,A,SC-13;SC-28,DSS05
+164.312(b),Technical,Audit controls,Audit controls,R,AU-2;AU-3;AU-12;AU-6,DSS05;MEA01
+164.312(c)(2),Technical,Integrity,Mechanism to authenticate ePHI,A,SI-7,DSS05;DSS06
+164.312(d),Technical,Person or entity authentication,Person or entity authentication,R,IA-2;IA-5;IA-8,DSS05
+164.312(e)(2)(i),Technical,Transmission security,Integrity controls,A,SC-8;SI-7,DSS05
+164.312(e)(2)(ii),Technical,Transmission security,Encryption,A,SC-8;SC-13,DSS05
+164.316(a),Organizational,Policies and procedures,Policies and procedures,R,PL-1;AC-1;AU-1;IA-1;IR-1,APO01;APO13
+164.316(b)(2)(i),Organizational,Documentation,Time limit (6-year retention),R,SI-12;AU-11,APO01;BAI09
+164.316(b)(2)(ii),Organizational,Documentation,Availability,R,PL-2;SI-12,APO01
+164.316(b)(2)(iii),Organizational,Documentation,Updates,R,PL-1;CM-3;PL-2,APO01;BAI06
